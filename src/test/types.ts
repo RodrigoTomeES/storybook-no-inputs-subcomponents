@@ -1,4 +1,6 @@
+import { ReactNode } from "react";
+
 export interface TypeTestProps {
   className: string;
-  children: any;
+  children: ReactNode[] | ReactNode;
 }
